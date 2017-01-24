@@ -416,24 +416,33 @@ input {
 .box-dashboard .in-box-dashboard{
   position: relative;
   top: -138px;
-  height: 90px;
 }
 .box-dashboard .in-box-dashboard .dashboard-left,
 .box-dashboard .in-box-dashboard .dashboard-right{
   display: block;
   overflow: hidden;
+    max-height: 355px;
   box-shadow:0px 30px 80px 0px rgba(0,0,0,0.19), 0px 12px 24px 0px rgba(0,0,0,0.23);
   border-radius:10px;
+    background-color: #ffffff;
 }
 .box-dashboard .in-box-dashboard a img{
   width: 100%;
+}
+.title-dashboard h3{
+    font-size:24px;
+    color:#980700;
+}
+.title-dashboard p{
+    font-size:14px;
+    color:#9b9b9b;
 }
 /***YOUR REPORT close***/
 
 /***OUR UPDATE open***/
 .box-our-update{
   background-color: #980700;
-  padding: 20px 0px 74px 0px;
+  padding: 20px 0px 0px 0px;
 }
 .box-our-update .in-box-ourupdate{
   text-align: center;
@@ -511,18 +520,33 @@ input {
 }
 
 .sitefooter {
-    background: #222222;
+    background: #f1f1f1;
 }
 
 .in-footer {
     padding: 40px 0px;
 }
-
+.sitefooter .networks {
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.sitefooter .networks li {
+    display: inline-block;
+    margin-right: 9px;
+    font-size: .685em;
+    text-transform: uppercase;
+}
 .in-footer .logo-footer .link-ft {
-    background: url('../images/logo-ft.png') no-repeat 0 0;
     display: block;
     width: 177px;
     height: 42px;
+}
+.sitefooter .networks li img {
+    height: 23px !important;
+}
+.sitefooter .networks li a:link {
+    color: #666;
 }
 
 .add-ft {
@@ -2154,4 +2178,14 @@ you can use the generic selector below, but it's slower:
 }
 .case-studies {
   padding-top: 86px;
+}
+.nav-footer{
+    border-top: 1px solid #ffffff;
+    margin-top: 60px;
+}
+.nav-footer li a{
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
 }

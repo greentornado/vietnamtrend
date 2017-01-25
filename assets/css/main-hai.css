@@ -1,0 +1,9 @@
+.bg-home {
+    height: 540px;
+}
+
+.navigation-home ul li a{
+    font-family: 'Nunito Sans';
+    font-weight: bold;
+    font-size: 14px;
+}

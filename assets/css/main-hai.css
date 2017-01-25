@@ -347,3 +347,39 @@
     font-size: 29px;
     font-weight: 100;
 }
+
+.box-library h3.box-title {
+    margin-top: 0;
+}
+.sidebar-title {
+    width: 100%;
+    height: 60px;
+    background: #980700;
+    line-height: 60px;
+    text-align: center;
+    font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    color: #fff;
+}
+.box-side-category ul {
+    margin-top: 20px !important;
+}
+
+.box-side-category ul li a {
+    display: block;
+    font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    color: #9B9B9B;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    padding-left: 30px;
+}
+
+.box-side-category ul li a:hover,.box-side-category ul li a:active {
+    color: #980700;
+    font-weight: bold;
+}

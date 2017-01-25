@@ -1,3 +1,5 @@
+
+/** Header **/
 .bg-home {
     height: 540px;
 }
@@ -6,4 +8,41 @@
     font-family: 'Nunito Sans';
     font-weight: bold;
     font-size: 14px;
+}
+
+.header-logo {
+    font-family: 'Nunito Sans';
+    font-weight: 900;
+    font-size: 24px;
+    color: #fff;
+    width: 180px;
+    display: block;
+}
+
+.box-dashboard .in-box-dashboard {
+    position: relative;
+    top: -98px;
+}
+
+
+/** Boby **/
+
+.box-dashboard .container .in-box-dashboard {
+    padding: 0px;
+}
+
+.box-dashboard .container .in-box-dashboard .dashboard-left {
+    max-width: 555px;
+}
+
+
+.box-dashboard .container .in-box-dashboard .dashboard-right {
+    max-width: 555px;
+    margin-left: 30px;
+}
+
+.dashboard-block .dashboard-block-title {
+    font-family: 'Nunito Sans';
+    font-weight: 900;
+    font-size: 24px;
 }

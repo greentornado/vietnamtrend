@@ -1,17 +1,16 @@
-
 /** Header **/
 .bg-home {
     height: 540px;
 }
 
-.navigation-home ul li a{
-    font-family: 'Nunito Sans';
+.navigation-home ul li a {
+    font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;
     font-weight: bold;
     font-size: 14px;
 }
 
 .header-logo {
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;
     font-weight: 900;
     font-size: 24px;
     color: #fff;
@@ -19,18 +18,20 @@
     display: block;
 }
 
+.box-dashboard, .box-your-report {
+    background: #F8F8F8;
+}
+
 .box-dashboard .in-box-dashboard {
     position: relative;
     top: -98px;
 }
-
 
 /** Boby **/
 
 .box-dashboard .container .in-box-dashboard {
     padding: 0px;
 }
-
 
 .dashboard-block {
     max-height: 400px !important;
@@ -41,19 +42,19 @@
     max-width: 555px;
 }
 
-
 .box-dashboard .container .in-box-dashboard .dashboard-right {
     max-width: 555px;
     margin-left: 30px;
 }
 
 .dashboard-block .dashboard-block-title {
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;
     font-weight: 900;
     font-size: 24px;
     margin-top: 46px;
     margin-bottom: 3px
 }
+
 .dashboard-block .dashboard-calendar-icon {
     margin-top: 46px;
     clear: both;
@@ -61,6 +62,7 @@
     display: block;
     margin-bottom: 10px
 }
+
 .dashboard-block .dashboard-calendar-icon .fa-calendar {
     color: #9B9B9B;
     font-size: 20px;
@@ -69,14 +71,14 @@
 
 .dashboard-block .dashboard-block-sub {
     color: #9B9B9B;
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;
     font-style: italic;
     font-size: 14px;
 }
 
 .dashboard-block .dashboard-time {
     color: #9B9B9B;
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;
     font-style: italic;
     font-size: 14px;
     text-align: right;
@@ -86,9 +88,51 @@
 .dashboard-block .dashboard-block-chart {
     margin-top: 40px;
 }
+
 .dashboard-block .dashboard-block-chart img {
     margin: auto;
 }
+
 .dashboard-block .dashboard-block-chart {
     text-align: center;
+}
+
+.box-home .box-title {
+    font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;
+    font-size: 36px;
+}
+
+.box-home .box-title span.extra-bold {
+    font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.box-filter li.active a {
+    font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.box-filter li a {
+    font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.box-home .list-item li .link-text {
+    color: #4A4A4A;
+    font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.box-hone .btn-view-more a, .btn-viewmore-yourreport a {
+    font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+
 }

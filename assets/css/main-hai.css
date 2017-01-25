@@ -160,6 +160,20 @@
     font-style: normal;
 }
 
+.box-home .list-item li {
+    height: 240px;
+    margin-bottom: 30px;
+}
+
+.box-home .list-category li .link-text {
+    color: #4A4A4A;
+    font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
 .box-home .list-item li .link-text {
     color: #4A4A4A;
     font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;

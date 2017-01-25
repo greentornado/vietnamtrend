@@ -149,6 +149,13 @@
 }
 
 
+.box-our-update .in-box-ourupdate h3{
+    font-size: 36px;
+    margin-top: 49px;
+    display: block;
+    color: #fff;
+    font-weight: 200;
+}
 
 .box-our-update .in-box-ourupdate .dashboard-left .btn-signup-update {
     height: 62px;

@@ -125,13 +125,13 @@ border: inherit;
       display: block;
       height: 20px;
       width: 20px;
-    }
-    .add-ft{
-          padding-top: 20px;
-    }
-    .top-link-back .ic-topbar a img{
-      display: none;
-    }
+}
+.add-ft{
+padding-top: 20px;
+}
+.top-link-back .ic-topbar a img{
+  display: none;
+}
 
 /* INDEX open*/
 .topbar-hotline{
@@ -142,7 +142,7 @@ border: inherit;
 }
 .box-dashboard .container .in-box-dashboard .dashboard-right{
   max-width: 100%;
-  margin: 50px 0px;
+  margin: 50px 0px 0px 0px;
 }
 .box-your-report .list-report ul li{
   width: 100%;
@@ -186,7 +186,7 @@ border: inherit;
   display: none;
 }
 .navbar-nav{
-  margin:19px 0px !important;
+  margin:10px 0px !important;
 }
 .dashboard-block .dashboard-block-title{
   font-size: 20px;
@@ -203,13 +203,45 @@ border: inherit;
   display: block;
   float:none;
 }
+.menu-mobile .hotline-m{
+  background-color: #fff;
+  text-align: center;
+  padding: 10px 0px;
+}
+.menu-mobile .hotline-m .hotline-text span .fa-phone{
+  padding-right:10px;
+}
+#home .topbar{
+  display: none;
+}
+.box-sidebar-right{
+  top:  30%;
+  opacity: 0.4;
+}
+.box-sidebar-right:hover{
+  opacity: 1;
+}
+.box-dashboard, .box-your-report, .box-bg-grey, .box-content{
+  background-color: #fff;
+}
 /* INDEX close*/
 
 
 
-/*SOLUTION open*/
-
-/*SOLUTION close*/
+/*LIBRARY open*/
+.box-library{
+  padding-bottom: 50px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.box-side-category ul li a{
+  padding-left: 0px;
+  text-align: center;
+}
+.box-library h3.box-title{
+  margin-top: 32px;
+}
+/*LIBRARY close*/
 
 
 
@@ -221,6 +253,13 @@ border: inherit;
 
 
 /*DETAIL open*/
+.box-content-body{
+  box-shadow: inherit;
+  padding: 10px 0px;
+}
+.box-content-body .featured-image img{
+  width: 100%;
+}
 
 /*DETAIL close*/
 
@@ -307,19 +346,11 @@ margin-top: 600px;
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2),
 screen and (-webkit-device-pixel-ratio: 1.5) {
-    .in-box-footer .ft-logo a.logo-ft {
-        background: url('../images/logo-footer@2x.png') no-repeat center center;
-        background-size: 80px 68px;
-        width: 160px;
-        display: block;
-        height: 96px;
-        margin-top: 0;
-    }
     .menu-mobile  .navbar-logo-mobile{
-      background: url('../images/logo-mobile@2x.png') no-repeat center 5px;
-      background-size: 153px 19px;
-      width: 155px;
-      height: 32px;
+      background: url('../images/sprites.png') no-repeat 0px 5px;
+      background-size: 154px 39px;
+      width: 159px;
+      height: 31px;
       display: block;
     }
     input[type=search]{

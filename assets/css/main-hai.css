@@ -35,6 +35,11 @@
     position: relative;
     top: -98px;
 }
+.header-logo{
+  background: url('../images/sprites.png') no-repeat 0px -47px;
+  text-indent: -9999px;
+  height: 78px;
+}
 
 /** Boby **/
 

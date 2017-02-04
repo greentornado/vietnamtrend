@@ -132,7 +132,9 @@ padding-top: 20px;
 .top-link-back .ic-topbar a img{
   display: none;
 }
-
+.dashboard-block .dashboard-block-chart img{
+  width: 100%;
+}
 /* INDEX open*/
 .topbar-hotline{
   text-align: center;

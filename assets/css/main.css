@@ -217,7 +217,7 @@ input {
     position: absolute;
     padding: 0;
     top: 40px;
-    left: 0px;
+    left:inherit; ;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -252,7 +252,7 @@ input {
     display: block;
     width: 140px;
     padding: 10px 0px;
-    height: 40px;
+    height: 48px;
 }
 
 .navigation-home ul li ul li:hover {
@@ -303,8 +303,9 @@ input {
 .scrolled-nav .navigation-home ul li ul li{
   display: block;
   width: 140px;
-  background-color: #fff;
+  background-color: #2f2f2f;
   padding:0px;
+  opacity: 0.8;
 }
 .scrolled-nav .navigation-home ul li:hover ul{
   margin-top: 15px !important;

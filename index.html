@@ -112,11 +112,9 @@
             </div>
         </div>
         <div class="bg-home">
-
-            <div class="header">
-                <div class="container container-custom">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nav-top">
+            <div  class="header">
+                        <div id="global-nav" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nav-top">
+                          <div class="container container-custom">
                             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 top-link-back">
                                 <div class="ic-topbar-white">
                                     <a class="logo-vnp-back header-logo" href="detail.html">
@@ -748,9 +746,29 @@
             $(this).addClass('active');
         });
 
+
+
+
     });
 </script>
 
+<script type="text/javascript">
+$(document).ready(function(){
+  var scrollTop = 0;
+  $(window).scroll(function(){
+    scrollTop = $(window).scrollTop();
+     $('.counter').html(scrollTop);
+
+    if (scrollTop >= 100) {
+      $('#global-nav').addClass('scrolled-nav');
+    } else if (scrollTop < 100) {
+      $('#global-nav').removeClass('scrolled-nav');
+    }
+
+  });
+
+});
+</script>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57e8109fe6250fb5"></script>

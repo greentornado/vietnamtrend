@@ -161,9 +161,20 @@ input {
 
 /** LOGO **/
 .top-link-back {
-    margin-top: 36px;
+    margin-top: 78px;
+    display: inline-block;
+ -webkit-transition: all .5s;
+   transition: all .5s;
 }
-
+#global-nav .navigation-home ul li.active,
+#global-nav .navigation-home ul li.main-nav:hover,
+#global-nav .navigation-home ul li.main-nav{
+    height: 99px;
+    padding:0px 11px;
+}
+.scrolled-nav .top-link-back{
+  margin-top:12px;
+}
 .bg-home .ic-topbar-black,
 .bg-solution .ic-topbar-black {
     display: none;
@@ -181,7 +192,7 @@ input {
 .bg-home .navigation-home,
 .bg-solution .navigation-home {
     float: right;
-    padding-top: 27px;
+    padding-top: 13px;
     padding-bottom: 18px;
 }
 .navigation-home ul li.last-child{
@@ -206,7 +217,7 @@ input {
     position: absolute;
     padding: 0;
     top: 40px;
-    left: -1px;
+    left: 0px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -224,22 +235,24 @@ input {
     padding-top: 5px;
 }
 .navigation-home ul li:hover ul li a{
-  color: #fff;
+  color: #9b9b9b;
   font-weight: 600;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
   display: block;
-  border-left: 5px solid rgba(0, 0, 0, .1);
+}
+.scrolled-nav .navigation-home ul li:hover ul li a{
+  border-left:inherit;
 }
 .navigation-home ul li:hover ul li a:hover{
   color: #b1b1b1;
-  border-left: 5px solid #fff;
 }
 .navigation-home ul li ul li {
     display: block;
     width: 140px;
     padding: 10px 0px;
+    height: 40px;
 }
 
 .navigation-home ul li ul li:hover {
@@ -269,9 +282,32 @@ input {
 }
 
 .navigation-home ul li.main-nav:hover,
-.navigation-home ul li.active {
+.navigation-home ul li.active,
+.scrolled-nav .navigation-home ul li.main-nav:hover,
+.scrolled-nav .navigation-home ul li.active{
     border-bottom: 1px solid #fff;
-    padding: 11px;
+    padding:0px 11px;
+}
+.scrolled-nav .navigation-home ul li.main-nav:hover,
+.scrolled-nav .navigation-home ul li.active{
+  margin-top:0px;
+}
+.scrolled-nav .navigation-home{
+  padding-top:0px;
+}
+.scrolled-nav .navigation-home ul li.main-nav{
+  padding:0px 11px;
+  margin-top:0px;
+  height: 60px !important;
+}
+.scrolled-nav .navigation-home ul li ul li{
+  display: block;
+  width: 140px;
+  background-color: #fff;
+  padding:0px;
+}
+.scrolled-nav .navigation-home ul li:hover ul{
+  margin-top: 15px !important;
 }
 .navigation-home ul li.last-child .signup{
   background-color:#cf1e26;
@@ -283,6 +319,36 @@ input {
     border: none;
 
 }
+
+
+#global-nav {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  height: 150px;
+  width: 100%;
+  background: #324c5f;
+  color: #fff;
+  line-height: 150px;
+  -webkit-transition: height .5s, line-height .5s; /* Safari */
+  transition: height .5s, line-height .5s;
+  background: inherit;
+}
+.scrolled-nav {
+  height: 60px !important;
+  line-height: 60px !important;
+  background: #222222 !important;
+}
+.counter {
+  width: 20px;
+  height: 20px;
+  background: black;
+  color: #fff;
+  position: fixed;
+  top: 120px;
+  right: 0;
+}
+
 /** Navigation close **/
 
 /***TOPBAR open***/

@@ -209,6 +209,7 @@ padding-top: 20px;
   background-color: #fff;
   text-align: center;
   padding: 10px 0px;
+  color: #010101;
 }
 .menu-mobile .hotline-m .hotline-text span .fa-phone{
   padding-right:10px;
@@ -225,6 +226,9 @@ padding-top: 20px;
 }
 .box-dashboard, .box-your-report, .box-bg-grey, .box-content{
   background-color: #fff;
+}
+#global-nav{
+  line-height: 6px;
 }
 /* INDEX close*/
 

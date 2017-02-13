@@ -288,6 +288,14 @@ input {
     border-bottom: 1px solid #fff;
     padding:0px 11px;
 }
+
+.scrolled-nav .navigation-home ul li.main-nav:hover,
+.scrolled-nav .navigation-home ul li.active{
+    border-bottom: 3px solid #fff;
+    padding:0px 11px;
+}
+
+
 .scrolled-nav .navigation-home ul li.main-nav:hover,
 .scrolled-nav .navigation-home ul li.active{
   margin-top:0px;
@@ -303,9 +311,9 @@ input {
 .scrolled-nav .navigation-home ul li ul li{
   display: block;
   width: 140px;
-  background-color: #2f2f2f;
+  background-color: #222222;
   padding:0px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .scrolled-nav .navigation-home ul li:hover ul{
   margin-top: 15px !important;
@@ -338,7 +346,7 @@ input {
 .scrolled-nav {
   height: 60px !important;
   line-height: 60px !important;
-  background: #222222 !important;
+  background: #980700 !important;
 }
 .counter {
   width: 20px;

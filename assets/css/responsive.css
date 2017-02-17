@@ -9,12 +9,76 @@
 .menu-mobile2{
   display: none;
 }
+.box-dashboard .container .in-box-dashboard .dashboard-left{
+  max-width: inherit;
+  width: 48%;
+  margin-right: 20px;
+}
+.box-dashboard .container .in-box-dashboard .dashboard-right{
+  margin-left: inherit;
+  max-width: inherit;
+  width: 48%;
+}
+}
 @media (min-width: 768px) and (max-width: 992px) {
   .container-custom{
     width: 768px;
   }
-  .menu-mobile{
-    display: none;
+.navbar-nav{
+  float:right;
+}
+.box-dashboard .container .in-box-dashboard .dashboard-left{
+  width: 100% !important;
+  max-width: inherit !important;
+}
+.dashboard-block .dashboard-block-chart{
+  margin-top: 0px;
+}
+.box-dashboard .container .in-box-dashboard .dashboard-left  .title-dashboard{
+  margin: 0px 0px 20px 0px;
+}
+.dashboard-block .dashboard-block-chart img{
+  width: 70% !important;
+}
+.box-dashboard .container .in-box-dashboard .dashboard-right{
+  width: 100% !important;
+  margin-top: 40px !important;
+  margin-left: inherit !important;
+  max-width: inherit !important;
+}
+
+.link-image a{
+  height: 196px;
+}
+.box-home .list-item li{
+  width: 48%;
+  margin: 10px 7px auto;
+}
+.btn-viewmore-yourreport{
+  margin:60px 0px !important;
+}
+.box-hone .btn-view-more a, .btn-viewmore-yourreport a{
+  padding: 16px 55px !important;
+}
+
+  .menu-mobile .hotline-m .hotline-text span .fa-phone{
+    padding-right:10px;
+  }
+  .menu-mobile .hotline-m .hotline-text{
+    width: 100%;
+  }
+  .menu-mobile  .navbar-logo-mobile{
+      background: url('../images/logo-mobile.png') no-repeat 0 0;
+      width: 213px;
+      height: 50px;
+      display: block;
+      margin: 12px 0px 0px 21px;
+    }
+    .navbar-header-mobile{
+      padding: 15px 2px;
+    }
+  .menu-mobile .navbar-inverse{
+    background-color: #010101;
   }
 
 /*Home*/
@@ -46,10 +110,6 @@
   font-size: 12px;
 }
 
-/*SIGNUP*/
-#demoregistration .modal-body{
-  padding: 15px 15px 0px 15px;
-}
 }
 @media (min-width: 320px) and (max-width: 768px) {
     /*NAV BAR*/
@@ -91,32 +151,20 @@
       height: 80px;
     }
 .menu-mobile  .navbar-logo-mobile{
-    background: url('../images/logo-mobile.png') no-repeat 0 0;
-    width: 213px;
-    height: 50px;
-    display: block;
-    margin: 12px 0px 0px 21px;
+  background: url(../images/sprites.png) no-repeat 10px -52px;
+  width: 213px;
+  height: 37px;
+  display: block;
+  margin: 12px 0px 0px 21px;
   }
-  .menu-mobile2  .navbar-logo-mobile{
-      background: url('../images/logo-mobile-black.png') no-repeat 0 0;
-      width: 213px;
-      height: 50px;
-      display: block;
-      margin: 12px 0px 0px 21px;
-    }
   .navbar-header-mobile{
     padding: 15px 2px;
   }
 .menu-mobile .navbar-inverse{
   background-color: #010101;
 }
-.menu-mobile2 .navbar-inverse{
-  background-color: #fff;
-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16),0px 2px 5px 0px rgba(0, 0, 0, 0.26);
-border: inherit;
-}
-.menu-mobile2  .navbar-inverse .navbar-toggle .icon-bar{
-      background-color: #777;
+.dashboard-block .dashboard-block-chart{
+  margin-top: 0px;
 }
     .sitefooter{
     }
@@ -141,9 +189,11 @@ padding-top: 20px;
 }
 .box-dashboard .container .in-box-dashboard .dashboard-left{
   width: 100%;
+  margin-right: inherit;
 }
 .box-dashboard .container .in-box-dashboard .dashboard-right{
   max-width: 100%;
+  width: 100%;
   margin: 50px 0px 0px 0px;
 }
 .box-your-report .list-report ul li{

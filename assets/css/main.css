@@ -431,6 +431,47 @@ input {
   background: #4A4A4A;
   margin: 32px auto;
 }
+.search-categories{
+  margin: 10px auto;
+  text-align: center;
+  margin-bottom: 49px;
+}
+.search-categories  .btn-info{
+  background-color: #000000 !important;
+  color:#fff !important;
+  border-color: inherit !important;
+}
+.search-categories input{
+  background-color: #fff;
+  padding: 20px 10px;
+  width: 390px;
+  font-size: 14px;
+  margin-left: -6px;
+  border: inherit;
+  -webkit-box-shadow: -1px 0px 27px 0px rgba(181, 181, 181, 0.75);
+-moz-box-shadow: -1px 0px 27px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 27px 0px rgba(191, 191, 191, 0.75);
+}
+.search-categories .btn-search-cate{
+  background-color: #980700;
+      border-radius: inherit;
+      color: #fff;
+      padding: 13px 22px;
+      margin-left: -4px;
+      font-size: 23px;
+}
+.search-categories .btn-group>.btn:first-child{
+  padding: 20px 0px;
+  border-radius: inherit;
+}
+.search-categories .bootstrap-select.btn-group .dropdown-toggle .filter-option{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.search-categories .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
+  width: 200px;
+}
 .box-your-report .list-report ul li a:hover,
 .link-text a:hover,
 .list-report .progressbar li.active,

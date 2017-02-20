@@ -138,6 +138,14 @@
 .link-image a{
   height: inherit;
 }
+.search-categories input.input-search{
+  width: 100%;
+}
+.search-categories input.btn-search-cate{
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 0px;
+}
 
     .container{
       width: 100%;

@@ -328,7 +328,39 @@ input {
     border: none;
 
 }
-
+.link-img-tag-left, .link-img-tag{
+  top: 158px;
+  position: relative;
+}
+.link-img-tag{
+  color:#fff;
+}
+.link-img-tag span{
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 100;
+  opacity: 0.7;
+  padding-left:10px;
+}
+.link-img-tag h3{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.link-img-tag h3 span{
+  padding-left:0px;
+}
+.link-img-tag:hover,
+.link-img-tag:active,
+.link-img-tag:focus{
+  color:#fff;
+}
+.link-img-tag-left img{
+  width: 100%;
+}
+.tag-right{
+  top: 35px;
+  left: 72px;
+}
 
 #global-nav {
   position: fixed;

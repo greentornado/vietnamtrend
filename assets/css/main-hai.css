@@ -419,3 +419,20 @@
     text-align: center;
     color: #a0a0a0;
 }
+
+.search-categories input.input-search {
+    width: 590px;
+    padding-left: 20px;
+}
+
+.search-categories input.btn-search-cate {
+    width: 160px;
+}
+
+.article-content img {
+    width: 600px !important;
+    margin: auto !important;
+    clear: both;
+    height: auto;
+    text-align: center;
+}

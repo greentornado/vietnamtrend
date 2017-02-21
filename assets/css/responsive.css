@@ -281,7 +281,15 @@ border-color: #980700;
   }
 .menu-mobile .navbar-inverse{
   background-color: #980700;
-  border-color: #980700;
+  border: inherit;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+  color: #f54a41;
+text-decoration: none;
+background-color: inherit;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+  background-color: #080808;
 }
 .dashboard-block .dashboard-block-chart{
   margin: 20px auto;

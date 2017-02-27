@@ -375,7 +375,7 @@
     text-align: center;
     font-family: 'Nunito Sans', Tahoma, Arial, sans-serif;
     font-size: 14px;
-    font-style: normal;
+    font-style: bold;
     font-weight: 800;
     color: #fff;
 }
@@ -435,4 +435,8 @@
     clear: both;
     height: auto;
     text-align: center;
+}
+
+.fadeInBlock {
+    opacity:0;
 }

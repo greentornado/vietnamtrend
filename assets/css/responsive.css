@@ -382,7 +382,7 @@ padding-top: 20px;
 }
 .box-dashboard .in-box-dashboard{
   top:inherit;
-  margin-bottom: 124px;
+  margin-bottom: 51px;
 }
 .navbar-nav{
   margin:10px 0px !important;
@@ -427,6 +427,10 @@ padding-top: 20px;
 #global-nav{
   line-height: 6px;
 }
+.scrolled-nav{
+  line-height: 6px !important;
+  height: 150px!important;
+}
 /* INDEX close*/
 
 
@@ -461,7 +465,8 @@ padding-top: 20px;
   padding: 10px 0px;
 }
 .box-content-body .featured-image img{
-  width: 100%;
+  width: 100% !important;
+  height: auto;
 }
 
 /*DETAIL close*/

@@ -375,6 +375,7 @@ padding-top: 20px;
 }
 .article-content img{
   width: 100%;
+  height: auto;
 }
 .sitefooter .networks{
   display: none;

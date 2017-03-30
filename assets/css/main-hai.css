@@ -429,13 +429,13 @@
     width: 160px;
 }
 
-.article-content img {
-    width: 600px !important;
-    margin: auto !important;
-    clear: both;
-    height: auto;
-    text-align: center;
-}
+/*.article-content img {*/
+    /*width: 600px !important;*/
+    /*margin: auto !important;*/
+    /*clear: both;*/
+    /*height: auto;*/
+    /*text-align: center;*/
+/*}*/
 
 .fadeInBlock {
     opacity:0;

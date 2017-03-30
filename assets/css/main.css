@@ -241,6 +241,7 @@ input {
   text-transform: uppercase;
   letter-spacing: 2px;
   display: block;
+  width: 168px;
 }
 .scrolled-nav .navigation-home ul li:hover ul li a{
   border-left:inherit;
@@ -310,7 +311,7 @@ input {
 }
 .scrolled-nav .navigation-home ul li ul li{
   display: block;
-  width: 140px;
+  width: 172px;
   background-color: #222222;
   padding:0px;
   opacity: 0.9;

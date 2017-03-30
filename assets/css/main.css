@@ -464,7 +464,7 @@ input {
   margin: 32px auto;
 }
 .search-categories{
-  margin: 10px auto;
+  margin: 0px auto;
   text-align: center;
   margin-bottom: 49px;
 }
@@ -561,6 +561,12 @@ box-shadow: -1px 0px 27px 0px rgba(191, 191, 191, 0.75);
 .link-image a img{
   width: 100%;
 }
+.sitefooter .networks{
+  display: none;
+}
+.article-content img{
+
+}
 .box-dashboard .in-box-dashboard{
   position: relative;
   top: -138px;
@@ -628,7 +634,10 @@ box-shadow: -1px 0px 27px 0px rgba(191, 191, 191, 0.75);
 /***OUR UPDATE close***/
 
 /****** HOME close ******/
-
+.box-library{
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
 
 /*** ON THE TOP open *****/
 
@@ -665,6 +674,24 @@ box-shadow: -1px 0px 27px 0px rgba(191, 191, 191, 0.75);
 /***** FOOTER open ******/
 .ft-mobile {
     display: none;
+}
+.logo{
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.logo .logo-icom{
+  background: url('../images/logo.png') center -1px no-repeat;
+  width: 269px;
+  height:48px;
+  display: block;
+  float: left;
+}
+.logo .logo-bn{
+  background: url('../images/logo.png') center -44px no-repeat;
+  width: 269px;
+  height:37px;
+  display: block;
+  float: left;
 }
 
 .sitefooter {

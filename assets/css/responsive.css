@@ -371,7 +371,10 @@ padding-top: 20px;
   height: auto;
 }
 .box-your-report .list-report ul li{
-  margin-right: 0px;
+  margin: 0px 10px;
+}
+.article-content img{
+  width: 100%;
 }
 .sitefooter .networks{
   display: none;

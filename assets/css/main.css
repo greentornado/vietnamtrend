@@ -214,7 +214,7 @@ input {
 .navigation-home ul li.main-nav ul {
     position: absolute;
     padding: 0;
-    top: 40px;
+    top: 8px;
     left:0px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -230,7 +230,7 @@ input {
 .navigation-home ul li:hover ul {
     display: block;
     color: #fff;
-    padding-top: 5px;
+    padding-top: 37 px;
 }
 .navigation-home ul li:hover ul li a{
   color: #9b9b9b;

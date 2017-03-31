@@ -563,7 +563,8 @@ box-shadow: -1px 0px 27px 0px rgba(191, 191, 191, 0.75);
   display: none;
 }
 .article-content img{
-
+  width: 100%;
+  height: auto;
 }
 .box-dashboard .in-box-dashboard{
   position: relative;

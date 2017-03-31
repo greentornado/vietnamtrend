@@ -161,7 +161,6 @@ input {
 
 /** LOGO **/
 .top-link-back {
-    margin-top: 78px;
     display: inline-block;
  -webkit-transition: all .5s;
    transition: all .5s;
@@ -169,8 +168,7 @@ input {
 #global-nav .navigation-home ul li.active,
 #global-nav .navigation-home ul li.main-nav:hover,
 #global-nav .navigation-home ul li.main-nav{
-    height: 99px;
-    padding:0px 11px;
+    padding: 0px 11px 7px 11px;
 }
 .scrolled-nav .top-link-back{
   margin-top:12px;
@@ -217,7 +215,7 @@ input {
     position: absolute;
     padding: 0;
     top: 40px;
-    left:inherit; ;
+    left:0px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -247,7 +245,7 @@ input {
   border-left:inherit;
 }
 .navigation-home ul li:hover ul li a:hover{
-  color: #b1b1b1;
+  color: #fff;
 }
 .navigation-home ul li ul li {
     display: block;
@@ -365,18 +363,17 @@ input {
 
 #global-nav {
   position: fixed;
-  top: 0;
+  top: 56px;
   z-index: 9999;
-  height: 150px;
   width: 100%;
   background: #324c5f;
   color: #fff;
-  line-height: 150px;
   -webkit-transition: height .5s, line-height .5s; /* Safari */
   transition: height .5s, line-height .5s;
   background: inherit;
 }
 .scrolled-nav {
+  top:0px !important;
   height: 60px !important;
   line-height: 60px !important;
   background: #980700 !important;

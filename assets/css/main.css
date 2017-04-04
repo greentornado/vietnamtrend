@@ -466,9 +466,6 @@ input {
   margin-bottom: 49px;
   padding:0px !important;
 }
-.search-categories form{
-  margin-left: 27px;
-}
 .search-categories  .btn-info{
   background-color: #000000 !important;
   color:#fff !important;
@@ -2358,7 +2355,7 @@ you can use the generic selector below, but it's slower:
 }
 .nav-footer{
     border-top: 1px solid #ffffff;
-    margin-top: 60px;
+    margin-top: 10px;
 }
 .nav-footer li a{
     font-size: 12px;

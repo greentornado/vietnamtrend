@@ -277,7 +277,7 @@ border-color: #980700;
   margin: 12px 0px 0px 21px;
   }
   .navbar-header-mobile{
-    padding: 15px 2px;
+    padding: 6px 2px;
   }
 .menu-mobile .navbar-inverse{
   background-color: #980700;
@@ -351,7 +351,7 @@ padding-top: 20px;
   width: 100%;
 }
 .search-categories form{
-  margin-left: 27px;
+  margin-left: 0px;
 }
 .box-our-update .in-box-ourupdate .dashboard-left .btn-signup-update{
   line-height: 58px;

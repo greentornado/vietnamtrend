@@ -544,6 +544,7 @@ box-shadow: -1px 0px 27px 0px rgba(191, 191, 191, 0.75);
   font-size: 18px;
   font-weight: 100;
 }
+
 .link-image a{
   display: block;
   width: 253px;
@@ -599,6 +600,7 @@ box-shadow: -1px 0px 27px 0px rgba(191, 191, 191, 0.75);
 }
 .box-our-update .in-box-ourupdate{
   text-align: center;
+  padding-bottom: 40px;
 }
 .box-our-update .in-box-ourupdate h3{
   font-size: 36px;

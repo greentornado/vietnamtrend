@@ -2374,4 +2374,5 @@ you can use the generic selector below, but it's slower:
 .category-listing .search-categories form {
     width: 770px;
    margin: auto;
+   text-align: center;
 }

@@ -2365,3 +2365,13 @@ you can use the generic selector below, but it's slower:
     color: #ffffff;
     text-transform: uppercase;
 }
+
+
+.search-categories form {
+    margin-left: 30px;
+}
+
+.category-listing .search-categories form {
+    width: 770px;
+   margin: auto;
+}

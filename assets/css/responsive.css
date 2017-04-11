@@ -517,6 +517,9 @@
         margin: auto;
         margin-bottom: 10px;
     }
+    .cloud-time-block .fa-calendar {
+        margin-left: 10px;
+    }
     .cloud-time-block .fa-calendar,    .cloud-time-block .dashboard-time{
         float: left;
     }
@@ -755,7 +758,7 @@
     .ua-mobile-ipad .dashboard-block .dashboard-calendar-icon {
         text-align: center;
         margin-top: 40px;
-        margin-left: 50px;
+        /*margin-left: 50px;*/
         display: inline-block;
         float: left;
     }
@@ -824,6 +827,11 @@
         margin: auto;
         display: block;
         width: 100%;
+    }
+
+    .search-categories input.input-search {
+        width: 437px;
+        padding-left: 20px;
     }
 
 }

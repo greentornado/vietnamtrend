@@ -728,6 +728,7 @@
         margin-top: 30px;
         margin-left: 50px;
         display: inline-block;
+        float: left;
     }
 
 
@@ -736,6 +737,10 @@
         text-align: left;
         margin-left: 10px;
         float: left;
+    }
+
+    .ua-mobile-ipad .dashboard-block .dashboard-block-title {
+        margin-top: 30px;
     }
 
     .ua-mobile-ipad  .dashboard-block {

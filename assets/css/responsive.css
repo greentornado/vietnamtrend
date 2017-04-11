@@ -344,8 +344,15 @@
         background-color: #080808;
     }
 
+    .dashboard-block {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .dashboard-block .dashboard-block-chart {
-        margin: 20px auto;
+        margin: 20px 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .sitefooter {

@@ -255,6 +255,9 @@
     .box-our-update .in-box-ourupdate .dashboard-left .btn-signup-update {
         width: auto;
     }
+    .category-listing .search-categories form{
+      text-align: center;
+    }
 }
 
 

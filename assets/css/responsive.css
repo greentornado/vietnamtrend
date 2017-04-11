@@ -8,6 +8,7 @@
     .menu-mobile,
     .menu-mobile2 {
         display: none;
+
     }
 
     .box-dashboard .container .in-box-dashboard .dashboard-left {
@@ -25,9 +26,11 @@
 
 @media (min-width: 768px) and (max-width: 992px) {
     .container-custom {
-        width: 768px;
+        width: 750px;
     }
-
+    .box-side-category ul li a{
+      height: auto;
+    }
     /*MENU MOBILE open*/
     .open > .dropdown-menu {
         display: block !important;
@@ -164,8 +167,9 @@
     }
 
     .box-home .list-item li {
-        width: 48%;
+        width: 47%;
         margin: 10px 7px auto;
+        overflow: hidden;
     }
 
     .btn-viewmore-yourreport {

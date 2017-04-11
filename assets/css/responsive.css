@@ -505,6 +505,7 @@
     .dashboard-block .dashboard-calendar-icon {
         text-align: center;
         margin-top: 10px;
+        display: none;
     }
 
 
@@ -520,8 +521,11 @@
         text-align: left;
         margin-left: 10px;
         float: left;
+        display: none;
     }
-
+    .dashboard-block .dash-time{
+      text-align: center;
+    }
 
     .menu-mobile .hotline-m {
         background-color: #fff;

@@ -246,8 +246,12 @@
         width: auto;
     }
 }
+<<<<<<< Updated upstream
 
 @media (min-width: 320px) and (max-width: 768px) {
+=======
+@media (min-width: 320px) and (max-width: 760px) {
+>>>>>>> Stashed changes
     /*NAV BAR*/
     .open > .dropdown-menu {
         display: block !important;

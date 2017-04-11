@@ -121,7 +121,13 @@
     .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
         background-color: inherit;
     }
-
+    .category-listing .search-categories form{
+      width: 100% !important;
+    }
+    .box-content-body .featured-image img{
+      width: 100%;
+      height: auto;
+    }
     /*MENU MOBILE close*/
     .navbar-nav {
         float: right;
@@ -254,7 +260,9 @@
     .open > .dropdown-menu {
         display: block !important;
     }
-
+    .bg-home{
+      height: 51px !important;
+    }
     .navbar-nav > li > .dropdown-menu {
         position: static;
         float: none;
@@ -429,6 +437,7 @@
 
     .box-home .list-item li a img {
         width: 100%;
+        height: auto;
     }
 
     .search-categories form {
@@ -529,6 +538,7 @@
         margin-top: 38px;
         text-align: center;
     }
+
 
     .dashboard-block .dashboard-calendar-icon {
         text-align: center;

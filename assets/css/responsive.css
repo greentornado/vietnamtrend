@@ -248,7 +248,7 @@
 }
 
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 760px) {
 
     /*NAV BAR*/
     .open > .dropdown-menu {
@@ -505,7 +505,6 @@
     .dashboard-block .dashboard-calendar-icon {
         text-align: center;
         margin-top: 10px;
-        margin-left: 50px;
     }
 
 
@@ -728,6 +727,7 @@
         text-align: center;
         margin-top: 30px;
         margin-left: 50px;
+        display: inline-block;
     }
 
 
@@ -754,5 +754,3 @@
 .ua-mobile-ipad .dashboard-block .dashboard-block-chart {
     margin-top: 10px;
 }
-
-

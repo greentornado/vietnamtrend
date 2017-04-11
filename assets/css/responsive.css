@@ -743,6 +743,10 @@
         padding-right: 20px;
     }
 
+    .ua-mobile-ipad .dashboard-block-title,     .ua-mobile-ipad .dashboard-block-sub {
+        text-align: left;
+    }
+
 }
 
 

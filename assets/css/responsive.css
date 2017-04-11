@@ -752,6 +752,14 @@
         text-align: left;
     }
 
+    .ua-mobile-ipad .navbar-logo-mobile {
+        background: url(../images/sprites.png) no-repeat 0 5px;
+        background-size: 120px 30px;
+        width: 120px;
+        height: 25px;
+        display: block;
+    }
+
 }
 
 

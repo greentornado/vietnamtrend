@@ -502,15 +502,25 @@
 
     .dashboard-block .dashboard-calendar-icon {
         text-align: center;
-        margin-top: 30px;
+        margin-top: 10px;
+        margin-left: 50px;
     }
 
-    .dashboard-block .dashboard-time,
+
+
     .dashboard-block .dashboard-block-sub {
         text-align: center;
         display: block;
         float: none;
     }
+
+    .dashboard-block .dashboard-time {
+        margin-top: 10px;
+        text-align: left;
+        margin-left: 10px;
+        float: left;
+    }
+
 
     .menu-mobile .hotline-m {
         background-color: #fff;
@@ -711,36 +721,24 @@
 }
 
 /* Ipad */
-@media (min-width: 768px) and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-    /*MENU MOBILE open*/
-    .open > .dropdown-menu {
-        display: block !important;
+@media (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .ua-mobile-ipad .dashboard-block .dashboard-calendar-icon {
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 50px;
     }
 
-    .dropdown > .dropdown-menu {
-        display: none;
+
+    .ua-mobile-ipad .dashboard-block .dashboard-time {
+        margin-top: 30px;
+        text-align: left;
+        margin-left: 10px;
+        float: left;
     }
 
-    .navbar-nav > li > .dropdown-menu {
-        position: static;
-        float: none;
-        width: auto;
-        margin-top: 0;
-        background-color: transparent;
-        border: 0;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-    }
-
-    .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover,
-    .navbar-inverse .navbar-nav > li > a {
-        background-color: inherit;
-        color: #fff;
-    }
-
-    .dropdown-menu > li > a {
-        color: #fff;
-        height: 45px;
+    .ua-mobile-ipad  .dashboard-block {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
 }

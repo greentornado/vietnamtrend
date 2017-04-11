@@ -497,18 +497,25 @@
     }
 
     .tag-right .link-img-tag {
+        width: 260px;
+        margin: auto;
         display: table;
+        top:128px;
     }
+
+
     .dashboard-time-block {
         margin: auto;
         display: block;
         width: 190px;
+
     }
     .cloud-time-block {
         clear: both;
         display: block;
         width: 200px;
         margin: auto;
+        margin-bottom: 10px;
     }
     .cloud-time-block .fa-calendar,    .cloud-time-block .dashboard-time{
         float: left;

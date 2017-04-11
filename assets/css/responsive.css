@@ -354,7 +354,9 @@
         padding-left: 0;
         padding-right: 0;
     }
-
+    .dashboard-calendar-icon, .dashboard-time {
+        float: left;
+    }
     .sitefooter {
     }
 
@@ -741,3 +743,10 @@
     }
 
 }
+@media (min-width: 768px) and (max-width:1024px)  {
+
+    .ua-mobile-ipad .dashboard-block .dashboard-block-chart {
+        margin-top: 10px;
+    }
+}
+

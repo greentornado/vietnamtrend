@@ -49,7 +49,14 @@
         border: 0;
         -webkit-box-shadow: none;
         box-shadow: none;
-        top: 56px;
+        top: 51px;
+    }
+    .navbar-nav > li:hover > .dropdown-menu{
+      display: block;
+    }
+    .navbar-nav > li:hover > .dropdown-menu li{
+      background-color:#000;
+      opacity: 0.8;
     }
     .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
         background-color: #980700;

@@ -264,6 +264,7 @@
 
     .box-our-update .in-box-ourupdate .dashboard-left .btn-signup-update {
         width: auto;
+        margin-top: 23px;
     }
     .category-listing .search-categories form{
       text-align: center;
@@ -429,12 +430,12 @@
     }
 
     .search-categories input.input-search {
-        width: 100%;
+        width: 70%;
     }
 
     .search-categories input.btn-search-cate {
-        width: 100%;
-        margin-top: 20px;
+        width: 29%;
+        margin-top: 0px;
         margin-left: 0px;
     }
 

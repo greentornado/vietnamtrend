@@ -39,7 +39,12 @@
     .dropdown > .dropdown-menu {
         display: none;
     }
-
+.box-our-update .in-box-ourupdate .dashboard-left input{
+        width: 63%;
+      }
+      .box-our-update .in-box-ourupdate .dashboard-left .btn-signup-update{
+            width: 36%;
+      }
     .navbar-nav > li > .dropdown-menu {
         position: absolute;
         float: none;
@@ -89,12 +94,12 @@
     }
 
     .search-categories input.input-search {
-        width: 100%;
+        width: 70%;
     }
 
     .search-categories input.btn-search-cate {
-        width: 100%;
-        margin-top: 20px;
+        width: 29%;
+        margin-top: 0px;
         margin-left: 0px;
     }
 
@@ -437,11 +442,11 @@
     }
 
     .search-categories input.input-search {
-        width: 70%;
+        width: 100%;
     }
 
     .search-categories input.btn-search-cate {
-        width: 29%;
+        width: 100%;
         margin-top: 0px;
         margin-left: 0px;
     }

@@ -220,7 +220,7 @@ input {
 .navigation-home ul li.main-nav ul {
     position: absolute;
     padding: 0;
-    top: 8px;
+    top: 18px;
     left: 0px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -236,7 +236,7 @@ input {
 .navigation-home ul li:hover ul {
     display: block;
     color: #fff;
-    padding-top: 37px;
+    padding-top: 20px;
 }
 
 .navigation-home ul li:hover ul li a {
@@ -2450,7 +2450,7 @@ you can use the generic selector below, but it's slower:
 }
 
 .search-categories form {
-    margin-left: 30px;
+    margin-left: 13px;
 }
 
 .category-listing .search-categories form {
@@ -2459,4 +2459,3 @@ you can use the generic selector below, but it's slower:
    margin: auto;
    text-align: center;
 }
-

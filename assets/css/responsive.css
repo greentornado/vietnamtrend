@@ -28,6 +28,9 @@
     .container-custom {
         width: 750px;
     }
+    .search-categories form{
+      margin-left: 23px;
+    }
     .box-side-category ul li a{
       height: auto;
     }
@@ -98,7 +101,7 @@
     }
 
     .search-categories input.btn-search-cate {
-        width: 29%;
+        width: 26%;
         margin-top: 0px;
         margin-left: 0px;
     }

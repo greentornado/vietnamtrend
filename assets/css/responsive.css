@@ -29,7 +29,7 @@
         width: 750px;
     }
     .search-categories form{
-      margin-left: 23px;
+      margin-left: 13px;
     }
     .box-side-category ul li a{
       height: auto;
@@ -599,7 +599,7 @@
         height: auto;
     }
 
-    .search-categories form {
+      .search-categories form {
         margin-left: 0px;
     }
 

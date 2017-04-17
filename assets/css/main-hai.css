@@ -432,11 +432,11 @@
 .search-categories input.input-search {
     width: 607px;
     padding-left: 20px;
+    padding-bottom:20px;
 }
 
 .search-categories input.btn-search-cate {
     width: 190px;
-    margin-top:20px;
 }
 
 /*.article-content img {*/

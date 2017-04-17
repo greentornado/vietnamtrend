@@ -183,8 +183,11 @@
 }
 
 .box-home .list-item li {
-    height: 238px;
+    height: 233px;
     margin-bottom: 30px;
+}
+.box-bg-grey .list-category{
+  padding:0px;
 }
 
 .box-home .list-category li .link-text {
@@ -433,6 +436,7 @@
 
 .search-categories input.btn-search-cate {
     width: 190px;
+    margin-top:20px;
 }
 
 /*.article-content img {*/

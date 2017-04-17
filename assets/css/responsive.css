@@ -105,9 +105,16 @@
         margin-top: 0px;
         margin-left: 0px;
     }
+    .search-categories
 
     #home .topbar {
         display: none;
+    }
+    .box-home .list-item li {
+        height: 233px;
+    }
+    .box-bg-grey .list-category{
+      padding:0px;
     }
 
     .top-search {
@@ -195,6 +202,7 @@
         width: 47%;
         margin: 10px 7px auto;
         overflow: hidden;
+        padding:0px;
     }
 
     .btn-viewmore-yourreport {

@@ -216,7 +216,9 @@ input {
 .navigation-home ul li:hover {
     color: #777777;
 }
-
+.search-categories input.input-search{
+      margin-bottom: 20px;
+}
 .navigation-home ul li.main-nav ul {
     position: absolute;
     padding: 0;

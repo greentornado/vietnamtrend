@@ -59,6 +59,16 @@
         box-shadow: none;
         top: 51px;
     }
+    .search-categories{
+        margin-bottom: 18px;
+    }
+    .scrolled-nav{
+      line-height: 37px!important;
+    }
+    .box-home .list-item li .link-text{
+      height: 62px;
+      overflow: hidden;
+    }
     .navbar-nav > li:hover > .dropdown-menu{
       display: block;
     }
@@ -100,12 +110,17 @@
         width: 70%;
     }
 
-    .search-categories input.btn-search-cate {
+    #home .box-choose-report .search-categories input.btn-search-cate {
         width: 26%;
         margin-top: 0px;
-        margin-left: 0px;
+        margin-left: -24px;
     }
-    .search-categories
+    #home .box-library .search-categories input.btn-search-cate{
+        width: 27%;
+        margin-top: 0;
+        margin-left: -2px;
+    }
+
 
     #home .topbar {
         display: none;

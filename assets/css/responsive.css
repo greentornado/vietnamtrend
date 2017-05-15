@@ -108,6 +108,7 @@
 
     .search-categories input.input-search {
         width: 70%;
+        margin-bottom:3px;
     }
 
     #home .box-choose-report .search-categories input.btn-search-cate {
@@ -126,7 +127,7 @@
         display: none;
     }
     .box-home .list-item li {
-        height: 233px;
+        height: 259px;
     }
     .box-bg-grey .list-category{
       padding:0px;
